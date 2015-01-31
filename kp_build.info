@@ -1,0 +1,72 @@
+目标路径:ftp://#TEP_FTP_SERVICES#/SW/软件开放资料/发布版本/内部版本/K469/K469_XT3/#TEP_VERSION_FILE_NAME#
+-----------------------------------------------
+
+软件信息:
+-----------------------------------------------
+内部项目名      :  K469XT3
+内部软件版本    :  4691M1U1_XT3_V006_[user]
+内部硬件版本    :  K469_MB_P1_V03
+
+客户            :  InnJoo
+客户型号        :  i1s
+客户软件版本    :  i1s-Android4.4-InnJoo-20140812-V1
+
+基本配置:  6582
+-----------------------------------------------
+ 1. 支持sim卡个数:  2
+ 2. 屏幕         :  480X854
+                 :  otm8018b_dsi_vdo_fwvga_469xt otm8019_fwvga_dsi_vdo_K469kb
+ 3. TP           :  ft5206 GT9XX 
+ 4. 摄像头       :  imx219_mipi_raw gc5004mipi_raw gc0329_yuv gc2235_raw [ gc0329_yuv ]
+ 5. 支持Flash    :  KMK7X000VM_B314 
+ 6. GPS          :  MTK_GPS_MT6582
+ 7. CMMB         :  
+ 8. WIFI         :  MTK6627
+ 9. BT           :  MTK_CONSYS_MT6582
+10. FM           :  MT6627_FM
+11. G-SENSOR     :  KXTJ2_1009
+12. M-SENSOR     :  
+13. MODEM        :  KPHONE82_WET_KK_HSPA_K469_B1_GSM4_nojiti_youGPS
+14. 语言         :  en_GB tl_PH fr_FR it_IT pt_BR sw_TZ pl_PL ru_RU tr_TR ar_EG fa_IR es_ES 中文
+15. 其它         :  
+
+编译时代码信息:
+-----------------------------------------------
+Path: .
+URL: svn://192.168.40.241/MT6582/KK1MP1V2/branches/brc_20140708/KP_PROD/K469_XT
+Repository Root: svn://192.168.40.241/MT6582/KK1MP1V2
+Repository UUID: 01d232cf-c6e7-034a-81f4-6d9aeb835da7
+Revision: 1527
+Node Kind: directory
+Schedule: normal
+Last Changed Author: tangjian
+Last Changed Rev: 1143
+Last Changed Date: 2014-07-14 14:57:08 +0800 (一, 14  7月 2014)
+
+Path: ../../kfree
+URL: svn://192.168.40.241/kfreeAndroid2/branches/brc_20140708
+Repository Root: svn://192.168.40.241/kfreeAndroid2
+Repository UUID: 0fd680d5-52e0-674d-b8e2-06306b2d619a
+Revision: 314
+Node Kind: directory
+Schedule: normal
+Last Changed Author: fengmeiyin
+Last Changed Rev: 297
+Last Changed Date: 2014-07-08 14:08:25 +0800 (二, 08  7月 2014)
+
+
+编译路径:
+-----------------------------------------------
+编译机器IP: 192.168.40.174
+
+/home/kphone/code/MTKan4.4/K469_XT_brc_git/KP_PROD/K469_XT/ver_4691M1U1_XT3.mk
+     : 
+     : ./ProjectConfig_XT3.mk
+     : ./proj_app_config_XT3.mk
+     : ../Public/config_gps ./config_prj/
+     : ./config_ver/
+     : kphone82_wet_kk
+     : ../Public/config_dws/K469_codegen_P1_V3_no_otg.dws
+     : features_switch.h
+     : ../Public/config_flash/custom_MemoryDevice_64_8.h
+     : 
